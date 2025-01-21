@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Step 1: Load the stock data (adjust for the format)
 # Replace the file path with your actual path
-data = pd.read_csv(r"C:\Users\nunjp\Documents\DOCs\NUNJ DOCUMENT\Job & Tax returns\Nvidia stock analysis\NVIDIA_STOCK.csv", skiprows=2)
+data = pd.read_csv(r"C:\Users\Nvidia stock analysis\NVIDIA_STOCK.csv", skiprows=2)
 
 # Set proper column names
 data.columns = ['Date', 'Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume']
